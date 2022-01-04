@@ -1,0 +1,16 @@
+[04-Dec-2020 17:37:29 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home3/kayancle/public_html/abrajaltajhijama/vendor/composer/../../app/Exceptions/Handler.php): failed to open stream: No such file or directory in /home3/kayancle/public_html/abrajaltajhijama/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /home3/kayancle/public_html/abrajaltajhijama/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home3/...', '/home3/kayancle...', 444, Array)
+#1 /home3/kayancle/public_html/abrajaltajhijama/vendor/composer/ClassLoader.php(444): include()
+#2 /home3/kayancle/public_html/abrajaltajhijama/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home3/kayancle...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /home3/kayancle/public_html/abrajaltajhijama/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\ in /home3/kayancle/public_html/abrajaltajhijama/vendor/composer/ClassLoader.php on line 444
+[04-Dec-2020 17:37:29 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home3/kayancle/public_html/abrajaltajhijama/vendor/composer/../symfony/debug/Exception/FatalErrorException.php): failed to open stream: No such file or directory in /home3/kayancle/public_html/abrajaltajhijama/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /home3/kayancle/public_html/abrajaltajhijama/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home3/...', '/home3/kayancle...', 444, Array)
+#1 /home3/kayancle/public_html/abrajaltajhijama/vendor/composer/ClassLoader.php(444): include()
+#2 /home3/kayancle/public_html/abrajaltajhijama/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home3/kayancle...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#4 /home3/kayancle/public_html/abrajaltajhijama/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(136): spl_autoload_call('Symfony\\Compone...')
+#5 /home3/kayancle/public in /home3/kayancle/public_html/abrajaltajhijama/vendor/composer/ClassLoader.php on line 444
